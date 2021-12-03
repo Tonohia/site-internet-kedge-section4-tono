@@ -1,0 +1,109 @@
+/* Colors and fonts */
+body {
+	background: #F7F9FC;
+	color: #575F7D;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	justify-content:center;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	color: #575F7D;
+	font-size: 32px;
+	font-weirght: 900;
+}
+h2{
+	color: #7ECE90;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight : bold;
+}
+a:hover{
+	color:blue;
+}
+
+div {
+	background: white;
+	border: 0px solid black;
+	margin: 30px;
+	padding:30px;
+	border-radius: 5px;
+}
+
+ .img-circle{
+ 	border-radius: 50%;
+ }
+
+.shadowed{
+	box-shadow: 5pc 5pc 3px black;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+
+.button{
+	margin-top:30px;
+	padding: 15px;
+	background-color: blue;
+	border-radius: 7px;
+	color: white;
+	border: solid 1px blue;
+}
+.button:hover{
+	background: white;
+	color:blue;
+	transition: 0.5s;
+}
+
+.button_facebook{
+	padding: 8px;
+	background-color: blue;
+	border-radius: 7px;
+	color: white;
+	border: solid 1px blue;
+}
+.button_facebook:hover{
+	background: white;
+	color:blue;
+	transition: 0.5s;
+}
+
+.button_linkedin{
+	padding: 8px;
+	background-color: white;
+	border-radius: 7px;
+	color: blue;
+	border: solid 1px white;
+}
+.button_linkedin:hover{
+	background: blue;
+	color:white;
+	transition: 0.5s;
+}
+
+.button_instagram{
+	padding: 8px;
+	background-color: pink;
+	border-radius: 7px;
+	color: white;
+	border: solid 1px pink;
+}
+.button_instagram:hover{
+	background: white;
+	color:red;
+	transition: 0.5s;
+}
